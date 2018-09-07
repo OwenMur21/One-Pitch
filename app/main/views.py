@@ -31,5 +31,13 @@ def new_comment(pitch_id):
 @login_required
 def upvote(pitch_id):
     """
-    View new comment function that returns the comment page and its data
+    Adds an upvotes to pitches
+    """
+
+
+@main.route('/pitches/downvote/<int:pitch_id>/downvote', methods = ['GET','POST'])
+@login_required
+def downvote(pitch_id):
+    """
+    Adds downvotes to pitches
     """
