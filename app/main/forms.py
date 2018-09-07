@@ -18,7 +18,7 @@ class UpvoteForm(FlaskForm):
 	submit = SubmitField()
 
 
-class Downvote(FlaskForm):
+class DownvoteForm(FlaskForm):
     submit = SubmitField()
 
 
