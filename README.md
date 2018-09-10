@@ -21,7 +21,7 @@ alembic==0.9.9 blinker==1.4 click==6.7 dominate==2.3.1 Flask==1.0.2 Flask-Bootst
 
 ## Known Bugs
 
-Once your account has been registered, you may get an error message 500, simply sign in with the same credentials and you will be logged in. Still working on that bug.
+There are no known bugs, incase of any let me know.
 
 ### Technologies used
 
