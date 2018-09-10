@@ -21,7 +21,7 @@ alembic==0.9.9 blinker==1.4 click==6.7 dominate==2.3.1 Flask==1.0.2 Flask-Bootst
 
 ## Known Bugs
 
-There are no known bugs, incase of any let me know.
+You may get an internal server error 500, once you sign up. Incase of that, simply go back and sign in with the same credentials and you will be logged in.
 
 ### Technologies used
 
