@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField,PasswordField,SubmitField,TextAreaField,RadioField
+from wtforms import SubmitField,TextAreaField
 from wtforms.validators import Required
 from wtforms import ValidationError
 
@@ -11,19 +11,6 @@ class PitchForm(FlaskForm):
 class CommentForm(FlaskForm):
     description = TextAreaField('Add comment',validators=[Required()])
     submit = SubmitField()
-
-# class UpvoteForm(FlaskForm):
-# 	submit = SubmitField()
-
-# class DownvoteForm(FlaskForm):
-#     submit = SubmitField()
-
-class CategoryForm(FlaskForm):
-    """
-    Class to create a wtf form for creating a pitch
-    """
-    name =  StringField('Category Name', validators=[Required()])
-    submit = SubmitField('Add')
 
 class UpdateProfile(FlaskForm):
     bio = TextAreaField('Tell us about you.',validators = [Required()])
